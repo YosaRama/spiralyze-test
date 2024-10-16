@@ -1,0 +1,41 @@
+#masthead-section {
+  background: url("../public/images/masthead.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+  height: 650px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.masthead-description {
+  font-size: 14px;
+  padding-right: 100px;
+}
+
+.masthead-header {
+  padding-top: 20.5px;
+}
+
+.masthead-wave {
+  bottom: 0;
+}
+
+.masthead-first-wave {
+  bottom: -2px;
+  position: absolute;
+}
+
+.masthead-second-wave {
+  bottom: 0;
+  position: absolute;
+}
+
+.masthead-content-title {
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.masthead-description {
+  color: var(--color-white);
+}

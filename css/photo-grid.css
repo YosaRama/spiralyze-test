@@ -1,0 +1,25 @@
+#photo-grid-section {
+  margin-bottom: 130px;
+}
+
+.photo-grid-item {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.photo-grid-title-container {
+  margin-top: 64px;
+}
+
+.photo-grid-title {
+  font-size: 36px;
+  line-height: 46px;
+  margin-right: 27px;
+}
+
+.photo-grid-content {
+  margin-top: 32px;
+}

@@ -1,0 +1,53 @@
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-white-bg);
+  margin: 0;
+}
+
+h1,
+p {
+  margin: 0;
+  color: var(--color-black);
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.main-container {
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+.general-title {
+  font-weight: 700;
+}
+.general-title.white {
+  color: var(--color-white);
+}
+.general-title.black {
+  color: var(--color-black);
+}
+.general-title span {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+.general-title.white span {
+  -webkit-text-stroke-color: var(--color-white);
+}
+.general-title.black span {
+  -webkit-text-stroke-color: var(--color-black);
+}
+
+.grid-3 {
+  width: calc(100% / 3 - 18px);
+  position: relative;
+}
+
+.divider {
+  flex-grow: 1;
+  background: var(--color-grey);
+  height: 1px;
+}

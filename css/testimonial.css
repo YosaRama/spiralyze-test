@@ -1,0 +1,8 @@
+.testimonial-slider-arrow {
+  cursor: pointer;
+}
+
+.testimonial-slider-item {
+  width: calc(100% - 2 * 48px - 2 * 54px);
+  margin: 0px 54px;
+}

@@ -2,7 +2,12 @@
   margin-bottom: 130px;
 }
 
-.photo-grid-item {
+.photo-grid-item-container {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 36px;
+}
+
+.photo-grid-item img {
   position: relative;
   width: 100%;
   height: 180px;
@@ -22,4 +27,6 @@
 
 .photo-grid-content {
   margin-top: 32px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 36px;
 }

@@ -41,11 +41,6 @@ p {
   -webkit-text-stroke-color: var(--color-black);
 }
 
-.grid-3 {
-  width: calc(100% / 3 - 18px);
-  position: relative;
-}
-
 .divider {
   flex-grow: 1;
   background: var(--color-grey);

@@ -1,0 +1,114 @@
+#organize-section {
+  background: var(--color-white);
+  padding: 100px 0px;
+}
+
+.organized-title-container {
+  margin-bottom: 36px;
+}
+
+.organized-title {
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.organized-content {
+  margin-bottom: 36px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 36px;
+}
+
+.organized-boxed {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 36px;
+}
+
+.organized-boxed-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96px;
+  border: 2px solid var(--color-light_green);
+  cursor: pointer;
+  position: relative;
+}
+
+.organized-boxed-item-content {
+  padding: 0px 36px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  position: relative;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.organized-boxed-item-info {
+  position: absolute;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.organized-boxed-item-more-info {
+  position: absolute;
+  transition: all 0.3s ease;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  width: calc(100% - 36px - 32px);
+  text-align: left;
+  left: 50%;
+  bottom: 0;
+  background: var(--color-green);
+  transform: translate(-50%, calc(100%));
+  color: var(--color-white);
+  box-shadow: 0px 4px 8px 0px #00000014;
+  border-radius: 8px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.organized-boxed-item:nth-child(-n + 3) .organized-boxed-item-more-info {
+  bottom: auto;
+  top: 0;
+  transform: translate(-50%, -100%);
+}
+
+.polygon {
+  transform: translate(-50%, 0%) rotate(-45deg);
+  height: 9px;
+  width: 22px;
+  position: absolute;
+  background: var(--color-green);
+  top: 0;
+  left: 50%;
+}
+
+.organized-boxed-item:nth-child(-n + 3) .polygon {
+  top: auto;
+  bottom: 0;
+}
+
+.organized-boxed-item-more-info-content {
+  padding: 12px 16px;
+}
+
+.organized-boxed-item:hover .organized-boxed-item-content {
+  color: var(--color-light_green);
+}
+
+.organized-boxed-item:hover .organized-boxed-item-info,
+.organized-boxed-item:hover .organized-boxed-item-more-info {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.organized-boxed-item:hover .organized-boxed-item-more-info {
+  transform: translate(-50%, calc(100% + 9px + 2px));
+}
+.organized-boxed-item:nth-child(-n + 3):hover .organized-boxed-item-more-info {
+  transform: translate(-50%, calc(-100% - 9px - 2px));
+}

@@ -15,12 +15,12 @@
 .organized-content {
   margin-bottom: 36px;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 36px;
+  gap: 36px;
 }
 
 .organized-boxed {
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 36px;
+  gap: 36px;
 }
 
 .organized-boxed-item {

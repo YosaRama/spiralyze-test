@@ -39,3 +39,27 @@
 .masthead-description {
   color: var(--color-white);
 }
+
+.masthead-contact-container {
+  padding: 51px 28px 56px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #2a7d6c 0%, #3e69609e 100%);
+}
+
+.masthead-contact-container h1 {
+  text-align: center;
+  color: var(--color-white);
+  font-weight: 600;
+  margin-bottom: 34px;
+}
+
+.masthead-input-container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.masthead-contact-button {
+  margin-top: 41px;
+  text-align: center;
+}

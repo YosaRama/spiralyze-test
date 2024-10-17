@@ -1,0 +1,100 @@
+.custom-input-container {
+  position: relative;
+  display: flex;
+}
+.custom-select-container {
+  position: relative;
+  display: flex;
+}
+.custom-input {
+  all: unset;
+  flex-grow: 1;
+  padding: 14px 16px;
+  background: transparent;
+  box-shadow: none;
+  border: 1px solid #ffffff80;
+  z-index: 10;
+  border-radius: 2px;
+  background: #ffffff0a;
+  width: 100%;
+  color: var(--color-white);
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+.custom-select-container.active .custom-input,
+.custom-input-container.active .custom-input,
+.custom-input:focus {
+  flex-grow: 1;
+  padding: 14px 16px;
+  background: transparent;
+  box-shadow: none;
+  border: 1px solid var(--color-white);
+  z-index: 10;
+  border-radius: 2px;
+  background: transparent;
+}
+.custom-label {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  background: transparent;
+  color: #ffffffb2;
+  padding: 0px 3px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.custom-select-container.active .custom-label,
+.custom-input-container.active .custom-label,
+.custom-input-container:focus-within .custom-label {
+  top: -10px;
+  font-size: 13px;
+  background: #2c7364;
+  z-index: 11;
+  color: var(--color-white);
+}
+
+.custom-input-error {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  width: calc(100% - 32px);
+  z-index: 12;
+  padding: 12px 16px;
+  background: var(--color-red);
+  color: var(--color-white);
+  font-size: 13px;
+  line-height: 20px;
+  border-radius: 8px;
+  bottom: 0;
+  transform: translateY(calc(100% + 9px));
+  transition: all 0.3s ease;
+}
+
+.custom-input-error .polygon {
+  background: var(--color-red);
+}
+
+.custom-select-container.error .custom-input,
+.custom-input-container.error .custom-input {
+  border: 1px solid var(--color-red);
+}
+.custom-select-container.error .custom-label,
+.custom-input-container.error .custom-label {
+  color: var(--color-red);
+}
+.custom-select-container.error.error-visible .custom-input-error,
+.custom-input-container.error.error-visible .custom-input-error {
+  visibility: visible;
+  opacity: 1;
+}
+.custom-select-icon {
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  height: fit-content;
+}
+.custom-select-container.error .custom-select-icon path {
+  fill: var(--color-red);
+}

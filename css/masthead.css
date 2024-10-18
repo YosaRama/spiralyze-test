@@ -71,3 +71,11 @@
   margin: 0 auto;
   margin-top: 41px;
 }
+
+.masthead-header.mobile {
+  display: none;
+}
+
+#mobile-menu {
+  display: none;
+}

@@ -513,12 +513,135 @@
       </div>
     </section>
 
-    <section id="video-section">Video Section</section>
+    <section id="video-section">
+      <div class="main-container">
+        <div class="absolute video-section-right-image">
+          <div class="relative h-full">
+            <img src="./public/images/video-image.jpg" />
+            <div class="video-play-icon-container" id="video-play-button">
+              <div class="video-play-icon-boxed">
+                <div class="video-play-icon-overlay"></div>
+                <div class="video-play-icon">
+                  <img src="./public/icons/play.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-wrap align-center justify-center absolute video-section-left-image"
+        >
+          <svg
+            width="779"
+            height="648"
+            viewBox="0 0 779 648"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="video-wave-1"
+          >
+            <path
+              d="M0 0H742.597C655.445 274 857.597 323.5 742.597 648H0V0Z"
+              fill="white"
+              fill-opacity="0.2"
+            />
+          </svg>
+
+          <svg
+            width="755"
+            height="648"
+            viewBox="0 0 755 648"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="video-wave-2"
+          >
+            <path
+              d="M0 0H719.719C635.252 274 831.175 323.5 719.719 648H0V0Z"
+              fill="url(#paint0_linear_377_2)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_377_2"
+                x1="377.5"
+                y1="0"
+                x2="377.5"
+                y2="648"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#305D52" />
+                <stop offset="1" stop-color="#153F38" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+
+        <div class="video-section-content">
+          <div class="flex flex-wrap align-center video-section-left">
+            <div class="h-fit video-section-left-content">
+              <div class="w-full general-title white video-title">
+                <span>WATCH</span> THE VIDEO
+              </div>
+              <div class="w-full video-list">
+                <ul>
+                  <li>
+                    <h1>Needs Assessment</h1>
+                    <p>
+                      The Advocacy Evaluation Toolkit contains the instruments
+                      used to collect data for evaluating the Consumer Voices
+                      for Coverage program.
+                    </p>
+                  </li>
+                  <li>
+                    <h1>Insurance Advocacy</h1>
+                    <p>
+                      The Advocacy Evaluation Toolkit contains the instruments
+                      used to collect data for evaluating the Consumer Voices
+                      for Coverage program.
+                    </p>
+                  </li>
+                  <li>
+                    <h1>Treatment Planning & Placement</h1>
+                    <p>
+                      Patients can better understand medical procedures,
+                      discharge instructions, etc.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="video-popup" class="video-popup">
+        <div class="video-popup-close" id="video-popup-close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 30 30"
+            width="30px"
+            height="30px"
+          >
+            <path
+              d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z"
+              fill="white"
+            />
+          </svg>
+        </div>
+        <iframe
+          width="80%"
+          height="80%"
+          src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          class="video-popup-item"
+        >
+        </iframe>
+      </div>
+    </section>
 
     <footer id="footer">Footer</footer>
 
     <script src="./js/index.js" type="text/javascript"></script>
     <script src="./js/slider.js" type="text/javascript"></script>
     <script src="./js/input.js" type="text/javascript"></script>
+    <script src="./js/video.js" type="text/javascript"></script>
   </body>
 </html>

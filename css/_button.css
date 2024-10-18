@@ -1,0 +1,39 @@
+.button {
+  height: 56px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-weight: 600;
+  position: relative;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 6px 0px #00000014;
+  transition: all 0.3s ease;
+  transform: translateY(0);
+  gap: 8px;
+}
+
+.button-primary {
+  color: var(--color-white);
+  background: var(--color-light_green);
+}
+
+.button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 6px 0px #00000014;
+}
+
+.button-primary:focus {
+  background: var(--color-light_green_hover);
+}
+
+.button-outlined {
+  color: var(--color-light_green);
+  border: 1px solid var(--color-light_green);
+  background: transparent;
+}
+
+.button-outlined:hover {
+  transform: translateY(-4px);
+}

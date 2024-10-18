@@ -60,6 +60,8 @@
 }
 
 .masthead-contact-button {
-  margin-top: 41px;
   text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 41px;
 }

@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+  }
+  .footer-container > div {
+    width: 100%;
+  }
+  .footer-link {
+    align-items: center;
+    justify-content: center;
+  }
+}

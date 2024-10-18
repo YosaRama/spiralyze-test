@@ -2,8 +2,21 @@
   padding-top: 20.5px;
 }
 
-.header-logo img {
+.header-logo {
   height: 35px;
+  position: relative;
+}
+
+.header-logo img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.header-menu {
+  flex-grow: 1;
+  justify-content: flex-end;
+  width: 90px;
 }
 
 .header-menu-item {
@@ -13,6 +26,10 @@
   position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+
+.header-menu-container {
+  margin-right: 31px;
 }
 
 .header-menu-item::before {
@@ -41,9 +58,6 @@
 
 .header-menu-item:nth-child(2) {
   margin: 0px 31px;
-}
-.header-menu-item:nth-child(3) {
-  margin-right: 31px;
 }
 
 .header-menu-contact {

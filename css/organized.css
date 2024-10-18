@@ -69,6 +69,7 @@
   border-radius: 8px;
   visibility: hidden;
   opacity: 0;
+  z-index: 20;
 }
 
 .organized-boxed-item:nth-child(-n + 3) .organized-boxed-item-more-info {

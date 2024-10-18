@@ -2,9 +2,14 @@
   position: relative;
 }
 
+.video-section-mobile {
+  display: none;
+}
+
 .video-title {
   font-size: 44px;
   line-height: 52px;
+  margin-bottom: 48px;
 }
 
 .video-section-left {
@@ -30,12 +35,29 @@
   list-style-type: none;
 }
 
-.video-list ul li h1 {
-  font-weight: 600;
-}
 .video-list ul li h1,
 .video-list ul li p {
   color: var(--color-white);
+}
+.video-list ul li h1 {
+  font-weight: 600;
+}
+.video-list ul li p {
+  color: #ffffffcc;
+}
+.video-list li {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+.video-list li > div {
+  width: 90px;
+  flex-grow: 1;
+}
+.video-list li::before {
+  content: url("../public/icons/check.svg");
+  position: relative;
+  padding-right: 24px;
 }
 
 .video-section-right-image {

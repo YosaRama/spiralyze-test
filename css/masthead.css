@@ -25,6 +25,12 @@
   bottom: -2px;
   position: absolute;
 }
+.masthead-first-wave.tablet,
+.masthead-first-wave.phone,
+.masthead-second-wave.phone,
+.masthead-second-wave.tablet {
+  display: none;
+}
 
 .masthead-second-wave {
   bottom: 0;

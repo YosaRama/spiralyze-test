@@ -37,13 +37,22 @@
   position: absolute;
 }
 
+.masthead-title-container {
+  margin-bottom: 74px;
+}
+
 .masthead-content-title {
   font-size: 64px;
   line-height: 72px;
+  margin-bottom: 12px;
 }
 
 .masthead-description {
   color: var(--color-white);
+}
+
+.masthead-contact {
+  margin-bottom: 74px;
 }
 
 .masthead-contact-container {

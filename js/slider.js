@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  const autoSlide = false;
+  const autoSlide = true;
   const autoSlideDuration = 6000;
 
   if (autoSlide) {

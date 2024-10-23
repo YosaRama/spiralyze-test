@@ -71,6 +71,9 @@
     font-size: 24px;
     line-height: 32px;
   }
+  .organized-title br {
+    display: block;
+  }
   .masthead-header.mobile {
     display: block;
   }
@@ -128,5 +131,18 @@
   }
   .thankyou-container {
     width: 80%;
+  }
+  .organized-divider {
+    flex-grow: 1;
+    background: var(--color-grey);
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+  .organized-title-container {
+    align-items: flex-end;
   }
 }

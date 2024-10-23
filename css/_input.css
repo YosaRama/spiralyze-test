@@ -94,6 +94,7 @@
   right: 22px;
   top: 50%;
   height: fit-content;
+  transform: translate(0%, -50%);
 }
 .custom-select-container.error .custom-select-icon path {
   fill: var(--color-red);

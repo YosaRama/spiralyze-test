@@ -10,6 +10,11 @@
 .organized-title {
   font-size: 36px;
   line-height: 46px;
+  letter-spacing: -1px;
+}
+
+.organized-title br {
+  display: none;
 }
 
 .organized-content {

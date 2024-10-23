@@ -22,7 +22,7 @@ p {
 }
 
 .general-title {
-  font-weight: 700;
+  font-weight: 800;
 }
 .general-title.white {
   color: var(--color-white);
@@ -45,4 +45,5 @@ p {
   flex-grow: 1;
   background: var(--color-grey);
   height: 1px;
+  margin-left: 20px;
 }

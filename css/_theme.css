@@ -22,7 +22,7 @@ p {
 }
 
 .general-title {
-  font-weight: 800;
+  font-weight: 700;
 }
 .general-title.white {
   color: var(--color-white);

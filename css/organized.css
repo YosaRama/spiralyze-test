@@ -118,3 +118,9 @@
 .organized-boxed-item:nth-child(-n + 3):hover .organized-boxed-item-more-info {
   transform: translate(-50%, calc(-100% - 9px - 2px));
 }
+
+.organized-content-first p {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 28px;
+}
